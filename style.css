@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+}
+
+.img1 {
+    width: 70px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.ekran {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kod {
+
+    font-size: 35px;
+    margin-bottom: 2px;
+    margin-left: -6px;
+    font-style: oblique;
+
+}
+
+.ad {
+
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-1 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+
+}
+
+.date-2 {
+    font-size: 25px;
+    font-family: 'Tahoma', sans-serif;
+
+
+}
+
+.visa {
+    width: 100px;
+    margin-right: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.kart-1 {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    width: 460px;
+    height: 295px;
+    min-width: 420px;
+    background-color: #8e44ad;
+    padding-left: 20px;
+    border-radius: 13px;
+    color: white;
+    margin: 20px;
+}
+.kart-1:nth-child(2){
+    background-color: rgb(37, 37, 175);
+}
+.kart-1:nth-child(3){
+    background-color: rgb(18, 109, 18);
+}
+.kart-1:nth-child(4){
+    background-color: gold;
+}
